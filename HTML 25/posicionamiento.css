@@ -1,0 +1,25 @@
+.box{
+    display: inline-block; 
+    /*Controla estructuras: block(coloca en bloques hacia abajo), inline block (bloques en una linea),inline (elmentos en linea), none (oculta elementos) */
+    width: 100px; /Ancho/
+    height: 100px; /Altura/
+    background-color: pink; /* Fondo*/
+    color: white;/Color texto/
+}
+
+#two {
+    position: absolute; /Absolute (los manda arriba), fixed(se posiciona al lado del navegador), sticky (se pega en su lugar), relativo (), static()/
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+}
+/*Las clases se llaman con .clase y los id con #id
+Padding: espacio entre contenido y borde*/
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: auto; /*hidden (limita bloques), scroll(crea un scroll), auto (permite hacer hacia arriba y abajo scroll): DE QUE MANERA SE VE LA PÁGINA */
+    padding-left: 150px;/espacio entre contenido y borde/
+
+}

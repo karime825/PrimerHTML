@@ -1,0 +1,28 @@
+.container{
+   display: flex;
+   flex-direction: row;/Como se van a acomodar los contenedores: column, column-inverse,row, row-reverse, se necesitan más líneas para notarla/
+   /flex-wrap: nowrap;/*Propiedad para fluir en una o varias líneas/
+   /justify-content: space-around; justifica o acomoda el contenido*/
+   align-content: center; /alinear contenido/
+}
+
+#one{
+   background-color: crimson;
+   width: 200px;
+   height: 200px;
+   flex-grow: 8; /que tanto va a crecer el item/
+}
+
+#two{
+   background-color: darkorchid;
+   width: 200px;
+   height: 200px;
+   flex-shrink: 0; /que tanto se va a acortar/
+}
+
+#three{
+   background-color: yellow;
+   width: 200px;
+   height: 200px;
+   flex-basis: 500px;/define el tamaño de un ítem en términos del espacio que deja como espacio disponible/
+}
