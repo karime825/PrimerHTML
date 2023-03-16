@@ -23,3 +23,9 @@ Padding: espacio entre contenido y borde*/
     padding-left: 150px;/espacio entre contenido y borde/
 
 }
+#three {
+    position: fixed; /Absolute (los manda arriba), fixed(se posiciona al lado del navegador), sticky (se pega en su lugar), relativo (), static()/
+    top: 200px;
+    left: 50px;
+    background-color: blue;
+}
